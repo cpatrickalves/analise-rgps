@@ -8,3 +8,6 @@ __pycache__/
 
 # Exclude database
 microdados/
+
+# IPython Notebook checkpoints
+.ipynb_checkpoints
