@@ -2,6 +2,8 @@
 
 Este projeto visa realizar uma análise descritiva completa dos dados do Regime Geral de Previdência Social (RGPS) no período de 1995 a 2016.
 
+A análise foi feita por etapas utilizando a linguagem Python. Para cada etapa foi criado um arquivo no Jupyter Notebook (extensão .ipynb).
+
 
 ## Origem dos dados:
 
@@ -14,6 +16,8 @@ As informações sobre o requerimento, resposta e dados originais estão dispon�
 
 Os dados foram disponibilizados em formatos CSV, juntamente com o arquivo de dicionário das variáveis além de algumas tabelas no formato xlsx.
 
-Para facilitar a manipulação dos dados, estes foram importados para um banco de dados SQLite3 (disponível na pasta microdados do projeto).
+Para facilitar a manipulação dos dados, estes foram importados para um banco de dados SQLite3 utilizando o script *csv_to_sqlite3.py* disponível na pasta **util** do projeto.
+
+O banco de dados está disponível para download neste [link](https://drive.google.com/file/d/1kuR8VNa4_9z1UgRVJspu4PYgyRz7UQaV/view?usp=sharing).
 
 
