@@ -1,4 +1,4 @@
-# Análise do Regime Geral de Previdênvia Social 
+# Análise dos dados do Regime Geral de Previdênvia Social 
 
 Este projeto visa realizar uma análise descritiva completa dos dados do Regime Geral de Previdência Social (RGPS) no período de 1995 a 2016.
 
@@ -17,7 +17,7 @@ As informações sobre o requerimento, resposta e dados originais estão dispon�
 
 Os dados foram disponibilizados em formatos CSV, juntamente com o arquivo de dicionário das variáveis além de algumas tabelas no formato xlsx.
 
-Para facilitar a manipulação dos dados, estes foram importados para um banco de dados SQLite3 utilizando o script *csv_to_sqlite3.py* disponível na pasta **util** do projeto.
+Para facilitar a manipulação dos dados, estes foram importados para um banco de dados SQLite3 utilizando o script **csv_to_sqlite3.py** disponível na pasta **util/** do projeto.
 
 O banco de dados está disponível para download neste [link](https://drive.google.com/drive/folders/1Mo6T6qU786GuOq-gMU322DmZzMCBlq3y?usp=sharing).
 
