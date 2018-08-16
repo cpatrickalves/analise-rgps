@@ -7,7 +7,12 @@ __pycache__/
 *.so
 
 # Exclude database
-microdados/
+microdados/csv
+*.db
+*.sqlite3
 
 # IPython Notebook checkpoints
 .ipynb_checkpoints
+
+# Others
+*.ini
