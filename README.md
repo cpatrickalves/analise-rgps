@@ -5,7 +5,7 @@ Este projeto visa realizar uma análise dos dados do Regime Geral de Previdênci
 As análises foram feitas por etapas utilizando as linguagens Python e SQL. Para cada etapa/análise foi criado um arquivo no Jupyter Notebook (extensão .ipynb), conforme descrito abaixo:
 
 * [*analise-geral.ipynb*](https://github.com/cpatrickalves/analise-rgps/blob/master/analise-geral.ipynb) - apresenta uma visão geral da estrutura do banco de dados e dos dados contidos em cada tabela.
-* *analise-aposentadorias.ipynb* - ...em desenvolvimento.
+* *analise-aposentadorias.ipynb* - *...em desenvolvimento.*
 
 ## Origem dos dados:
 
@@ -40,7 +40,7 @@ Os benefícios contidos nos dados são:
 
 No total, a bases de dados somam mais de 65 milhões de registros.
 
-O detalhamento das informações contidas em cada registro pode ser visto no arquivo *metadados.xls* disponível na pasta *microdados*.
+O detalhamento das informações contidas em cada registro pode ser visto no arquivo *metadados.xls* disponível na pasta **microdados/sqlite3**.
 
 ## Reproduzindo as Análises
 
@@ -48,9 +48,9 @@ Para reproduzir os resultados será necessário instalar o Python (3.5 ou superi
 
 O recomendado é a instalação da distribuição Python Anaconda que já possui todos os pacotes Python necessários pré-instalados. O Anaconda pode ser obtido neste [link](https://anaconda.org/anaconda/python).
 
-Após a instalação do Python e [download](https://github.com/cpatrickalves/analise-rgps/archive/master.zip) dos arquivos do projeto, a partir do Anaconda Navigator ou terminal/prompt basta a abrir a aplicação [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/) ou [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)(recomendado). 
+Após a instalação do Python e [download](https://github.com/cpatrickalves/analise-rgps/archive/master.zip) dos arquivos do projeto, a partir do *Anaconda Navigator* ou terminal/prompt basta a abrir a aplicação [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/) ou [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)(recomendado). 
 
-Além dos arquivos do projeto, é necessário o [download do banco de dados](https://drive.google.com/drive/folders/1Mo6T6qU786GuOq-gMU322DmZzMCBlq3y?usp=sharing) no formato SQlite3. Após o download do banco, deve-se salvar os arquivos na seguinte estrutura de diretórios: *analise-rgps/microdados/sqlite3/microdadosRGPS.db*. Caso você deseje salvar o banco é um local diferente será necessário atualizar o caminho para o banco nos arquivos do jupyter notebook.
+Além dos arquivos do projeto, é necessário o [download do banco de dados](https://drive.google.com/drive/folders/1Mo6T6qU786GuOq-gMU322DmZzMCBlq3y?usp=sharing) no formato SQLite3. Após o download do banco, deve-se salvar os arquivos na seguinte estrutura de diretórios: *analise-rgps/microdados/sqlite3/microdadosRGPS.db*. Caso você deseje salvar o banco é um local diferente será necessário atualizar o caminho para o banco nos arquivos do jupyter notebook.
 
 Por fim, dentro do Jupyter é possível carregar e executar os notebooks (arquivos com extensão **.ipynb**) do projeto.
 
