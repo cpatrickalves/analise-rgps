@@ -5,7 +5,7 @@ Este projeto visa realizar uma análise dos dados do Regime Geral de Previdênci
 As análises foram feitas por etapas utilizando as linguagens Python e SQL. Para cada etapa/análise foi criado um arquivo no Jupyter Notebook (extensão .ipynb), conforme descrito abaixo:
 
 * [*analise-geral.ipynb*](https://github.com/cpatrickalves/analise-rgps/blob/master/analise-geral.ipynb) - apresenta uma visão geral da estrutura do banco de dados e dos dados contidos em cada tabela.
-* *analise-aposentadorias.ipynb* - *...em desenvolvimento.*
+* *analise-aposentadoria-idade.ipynb* - *...em desenvolvimento.*
 
 ## Origem dos dados:
 
